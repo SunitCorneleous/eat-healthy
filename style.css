@@ -1,12 +1,17 @@
 body{
   font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+}
+
+section{
+  margin: 50px 0;
 }
 
 .flexible-container{
   width:80%;
   display: flex;
 
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .half-width{
@@ -49,4 +54,17 @@ img{
   font-size: 20px;
   font-weight: 700;
   box-shadow: 3px 3px 6px rgb(182, 178, 178);
+}
+
+.about-us{
+  background-image: url(./images/shapes/Frame-58.jpg);
+}
+
+.about-us-img{
+  width: 50%;
+  height: 100%;
+}
+
+.about-us .flexible-container{
+  padding: 90px 0 0;
 }
