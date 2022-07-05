@@ -4,7 +4,7 @@ body{
 }
 
 section{
-  margin: 50px 0;
+  margin: 100px 0;
 }
 
 .flexible-container{
@@ -58,6 +58,7 @@ img{
 
 .about-us{
   background-image: url(./images/shapes/Frame-58.jpg);
+  background-size: cover;
 }
 
 .about-us-img{
@@ -67,4 +68,39 @@ img{
 
 .about-us .flexible-container{
   padding: 90px 0 0;
+}
+
+.about-us h1{
+  color: rgb(90, 87, 87);
+}
+
+.about-us p{
+  line-height: 180%;
+}
+
+.recipie-heading{
+  text-align: center;
+  width: 50%;
+
+  margin: 0 auto;
+}
+
+.recipie-item{
+  height: 550px;
+  padding: 20px;
+  margin: 0 10px;
+
+  border-radius: 30px;
+
+  box-shadow: 2px 2px 30px rgb(209, 205, 205);
+}
+
+.recipie-item h1{
+  font-size: 35px;
+
+  font-weight: 700;
+}
+
+.recipie-item img{
+  height: 60%;
 }
