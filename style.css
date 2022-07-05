@@ -1,48 +1,48 @@
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
   margin: 0;
 }
 
-section{
+section {
   margin: 100px 0;
 }
 
-.flexible-container{
-  width:80%;
+.flexible-container {
+  width: 80%;
   display: flex;
 
   margin: 50px auto;
 }
 
-.half-width{
+.half-width {
   width: 50%;
 }
 
-.left-content{
+.left-content {
   margin: auto 0;
 }
 
-.left-content p{
+.left-content p {
   color: #7c7878;
 }
 
-h1{
+h1 {
   font-size: 50px;
 }
 
-p{
+p {
   font-size: 20px;
 }
 
-img{
+img {
   width: 100%;
 }
 
-.orange-color{
+.orange-color {
   color: orange;
 }
 
-.button-link{
+.button-link {
   text-decoration: none;
   color: white;
   background-image: linear-gradient(orange, red);
@@ -56,37 +56,37 @@ img{
   box-shadow: 3px 3px 6px rgb(182, 178, 178);
 }
 
-.about-us{
+.about-us {
   background-image: url(./images/shapes/Frame-58.jpg);
   background-size: cover;
 }
 
-.about-us-img{
+.about-us-img {
   width: 50%;
   height: 100%;
 }
 
-.about-us .flexible-container{
+.about-us .flexible-container {
   padding: 90px 0 0;
 }
 
-.about-us h1{
+.about-us h1 {
   color: rgb(90, 87, 87);
 }
 
-.about-us p{
+.about-us p {
   line-height: 180%;
 }
 
-.recipie-heading{
+.recipie-heading {
   text-align: center;
   width: 50%;
 
   margin: 0 auto;
 }
 
-.recipie-item{
-  height: 550px;
+.recipie-item {
+  height: 560px;
   padding: 20px;
   margin: 0 10px;
 
@@ -95,27 +95,56 @@ img{
   box-shadow: 2px 2px 30px rgb(209, 205, 205);
 }
 
-.recipie-item h1{
+.recipie-item h1 {
   font-size: 35px;
 
   font-weight: 700;
 }
 
-.recipie-item img{
+.recipie-item img {
   height: 60%;
 }
 
-.social{
+.social {
   padding: 40px 0;
+
   text-align: center;
+  justify-content: space-around;
 
   border-radius: 30px;
-
   box-shadow: 2px 2px 30px rgb(209, 205, 205);
-
 }
 
-.social h2{
+.social h2 {
   font-size: 48px;
   font-weight: 700;
+}
+
+.social p {
+  font-size: 400;
+}
+
+.social-item{
+  line-height: 30px;
+}
+
+footer{
+  background-color: rgb(36, 38, 41);
+
+  padding: 50px 0;
+
+  text-align: center;
+}
+
+footer h3{
+  font-size: 32px;
+  color: #4a4848;
+}
+
+footer span{
+  color: orange;
+}
+
+footer p {
+  color: white;
 }
